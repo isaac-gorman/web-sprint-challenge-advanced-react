@@ -29,17 +29,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+<!-- Conceptually, statefull components are elements that are subject to change based on their state.
+So in prcatice you must build these components to handle these changes. Stateful components must be modualr in nature. -->
 
 2. Describe the different phases of the component lifecycle.
-
+<!-- There a 3 phases on the component life cycyle. Brith, Life, and Death.
+ -->
 3. Demonstrate an understanding of class component lifecycle methods.
+<!-- During the Birth phases you use the "componentDidMount()" this will enable you to load initial data to your component. The Life phase is where you are able to update the component based on ever changing state, you can use the "componentDidUpdate function for this. And finally there is the Death of the component where you unrender the component from the DOM, you can use the componentWillUnmount() for this phase of the lifecycle to clear it from the DOM.  -->
 
 4. Define stateful logic.
+<!-- Stateful logic handles non-visual behavior for a component, for example stateful logic can be a function that formats data from an API to use in our application before we pass it to dummy components to render it on the screen -->
 
 5. Describe how to test a React component with React Testing Library.
-
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
-
+<!-- When testing use the the Arrange, Act, Assert (AAA) testing framework.
+    1) Arrange the code that you want to be tested
+    2) Act, invoke the function you actually want to be tested. Initiate code you want to test.
+    3) Assert your test. Assert that what you expected to happen, actually happens.
+ -->
 ## Instructions
 
 ### Task 1: Project Set Up
